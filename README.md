@@ -2,7 +2,7 @@
 
 ## Team Name
 
-- [Your Team Name]
+- PRIA
 
 ## Team Members
 
@@ -14,8 +14,9 @@
 
 ## Challenge Overview
 
-- Briefly describe the "Auto-WCEBleedGen" challenge and its goals.
-- Mention the specific tasks you have addressed: YOLOv8-based detection and EfficientDet-based classification.
+-The aim of the Auto-WCEBleedGen challenge is to provide an opportunity for the development, testing and evaluation of Artificial Intelligence (AI) models for automatic detection and classification of bleeding and non-bleeding frames extracted from Wireless Capsule Endoscopy (WCE) videos.
+
+- MODELS TRAINED AND BUILT: YOLOv8-based detection and EfficientDet-based classification.
 
 ## Repository Structure
 
@@ -98,4 +99,3 @@
 ## Additional Information
 
 - Include any additional information or notes that may be relevant to your submission.
-
