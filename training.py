@@ -1,32 +1,27 @@
-# Install necessary libraries
-# pip install ultralytics==8.0.134
-
-# Import required libraries
-import ultralytics
-
-# Check GPU access
-ultralytics.checks()
-
 from ultralytics import YOLO
+import subprocess
 
-# Specify the location of your dataset and data.yaml file
-dataset_location = "/path/to/your/dataset"
+# command to train the model
+# !yolo task=detect mode=train model=yolov8s.pt data={dataset.location}/data.yaml epochs=50 imgsz=800 plots=True
+
+# Define the paths to the model and data.yaml (replace with actual paths)
+model = "yolov8s.pt"
 data_yaml_path = "/path/to/your/data.yaml"
 
-# Initialize the YOLOv8 model
-model = YOLO(model="yolov8s.pt")
+# Construct the YOLO training command as a list of strings
+command = [
+    "yolo",
+    "task=detect",
+    "mode=train",
+    f"model={model}",
+    f"data={data_yaml_path}",
+    "epochs=50",
+    "imgsz=800",
+    "plots=True",
+]
 
-# Start training the model
-model.train(
-    task="detect",  # train detection (i.e. bounding boxes)
-    epochs=50,
-    imgsz=800,
-    data=data_yaml_path,
-    plots=True,  # Optional: Enable or disable training plots
-    # weights="/path/to/pretrained/weights",  # Optional: Provide pretrained weights
-    # batch_size=16,  # Optional: Adjust batch size as needed
-    # device="0",  # Optional: Specify GPU device if you have multiple GPUs
-    # project="your_project_name",  # Optional: Specify a project name
-    # name="your_run_name",  # Optional: Specify a run name
-    # save_dir="/path/to/save/directory",  # Optional: Specify a directory to save checkpoints and logs
-)
+try:
+    # Join the list of strings into a single command string and execute it
+    subprocess.run(" ".join(command), shell=True, check=True)
+except subprocess.CalledProcessError as e:
+    print("Error:", e)
