@@ -84,10 +84,6 @@
 
 - Summarize your approach, results, and the significance of your work in addressing the challenge.
 
-## License
-
-- Specify the license for your code and any other materials in your repository.
-
 ## Acknowledgments
 
 - Acknowledge any datasets, libraries, or resources you used in your work.
