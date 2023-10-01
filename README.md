@@ -16,7 +16,7 @@
 
 -The aim of the Auto-WCEBleedGen challenge is to provide an opportunity for the development, testing and evaluation of Artificial Intelligence (AI) models for automatic detection and classification of bleeding and non-bleeding frames extracted from Wireless Capsule Endoscopy (WCE) videos.
 
-- MODELS TRAINED AND BUILT: YOLOv8-based detection and EfficientDet-based classification.
+- MODELS TRAINED AND BUILT: YOLOv8-based detection and EfficientNet-based classification.
 
 ## Repository Structure
 
