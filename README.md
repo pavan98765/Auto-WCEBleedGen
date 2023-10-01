@@ -46,7 +46,11 @@
 
 - Showcase sample images showing the results of your YOLOv8 model, including bleeding region detection and classification.
 
-![Sample Image](detection_predictions/test_dataset_1/A0001.png)
+![A0001.png](detection_predictions/test_dataset_1/A0001.png)
+![A0051.png](detection_predictions/test_dataset_2/A0051.png)
+![A0063.png](detection_predictions/test_dataset_2/A0063.png)
+![A0136.png](detection_predictions/test_dataset_2/A0136.png)
+![A0140.png](detection_predictions/test_dataset_2/A0140.png)
 
 ## EfficientNet Classification Model
 
