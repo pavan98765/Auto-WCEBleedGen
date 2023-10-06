@@ -1,17 +1,5 @@
 # Auto-WCEBleedGen Challenge Submission
 
-## Team Name
-
-- PRIA
-
-## Team Members
-
-- [List the names of your team members]
-
-## Contact Information
-
-- [Provide a contact number or email address for your team]
-
 ## Challenge Overview
 
 -The aim of the Auto-WCEBleedGen challenge is to provide an opportunity for the development, testing and evaluation of Artificial Intelligence (AI) models for automatic detection and classification of bleeding and non-bleeding frames extracted from Wireless Capsule Endoscopy (WCE) videos.
