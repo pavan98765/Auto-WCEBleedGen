@@ -1,0 +1,12 @@
+names:
+- bleeding
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: wce_clean_train_2.0
+  url: https://universe.roboflow.com/wce-fpcql/wce_clean_train_2.0/dataset/1
+  version: 1
+  workspace: wce-fpcql
+test: test/images
+train: train/images
+val: valid/images
