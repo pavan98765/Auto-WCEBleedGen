@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import subprocess
 
 # command to train the model
-# !yolo task=detect mode=train model=yolov8s.pt data={dataset.location}/data.yaml epochs=50 imgsz=800 plots=True
+# yolo task=detect mode=train model=/path/to/your/model.pt data=/path/to/your/data.yaml epochs=50 imgsz=800 plots=True
 
 # Define the paths to the model and data.yaml (replace with actual paths)
 model = "yolov8s.pt"

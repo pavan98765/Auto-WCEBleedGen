@@ -23,3 +23,7 @@ except subprocess.CalledProcessError as e:
     print(f"Error: {e}")
 
 # results of the validation will be saved in the following directory: runs\detect\val
+
+# You can Use the command below to Validate the model
+# yolo task=detect mode=val model=/path/to/your/model.pt data=/path/to/your/data.yaml
+# The above command will run YOLOv8 validation on the validation dataset and save the results in the runs/detect/val folder.
