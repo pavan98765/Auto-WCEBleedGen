@@ -61,11 +61,21 @@
 
 ![A0060.png](Detection_Predictions/test_dataset_2/A0060.png)
 
-### Image 2 (Dataset 2)
+### A00129.png (Dataset 2)
 
-![Image 2 (Dataset 1)](path_to_image_2_dataset1.png)
+![A0129.png](Detection_Predictions/test_dataset_2/A0129.png)
 
-<!-- Repeat the pattern for images 3-5 (Dataset 1) -->
+### A0134.png (Dataset 2)
+
+![A0134.png](Detection_Predictions/test_dataset_2/A0134.png)
+
+### A0145.png (Dataset 2)
+
+![A0145.png](Detection_Predictions/test_dataset_2/A0145.png)
+
+### A0060.png (Dataset 2)
+
+![A0285.png](Detection_Predictions/test_dataset_2/A0285.png)
 
 ## Interpretability Plots for Best Testing Results (Dataset 1)
 
