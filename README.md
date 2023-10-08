@@ -57,9 +57,9 @@
 
 ## Screenshots/Pictures of Best Testing Results (Dataset 2)
 
-### Image 1 (Dataset 2)
+### A0060.png (Dataset 2)
 
-![Image 1 (Dataset 1)](path_to_image_1_dataset1.png)
+![A0060.png](Detection_Predictions/test_dataset_2/A0060.png)
 
 ### Image 2 (Dataset 2)
 
