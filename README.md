@@ -15,7 +15,7 @@
 
 ### Image 1
 
-![Image 1](Detection_Predictions/validation/img-648-_png_jpg.rf.5b81ff212c9b0c8edb77bff30426659c)
+![Image 1](Detection_Predictions/validation/img-648-_png_jpg.rf.5b81ff212c9b0c8edb77bff30426659c.jpg)
 
 ### Image 2
 
