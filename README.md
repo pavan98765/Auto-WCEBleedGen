@@ -2,14 +2,14 @@
 
 ## Table of Achieved Evaluation Metrics
 
-| Dataset    | Metric                                  | Value |
-| ---------- | --------------------------------------- | ----- |
-| Validation | Classification Accuracy                 | XX%   |
-| Validation | Classification Recall                   | XX%   |
-| Validation | Classification F1-Score                 | XX%   |
-| Validation | Detection Average Precision             | XX%   |
-| Validation | Detection Mean Average Prec.            | XX%   |
-| Validation | Detection Intersection over Union (IoU) | XX%   |
+| Dataset    | Metric                                  | Value          |
+| ---------- | --------------------------------------- | -------------- |
+| Validation | Classification Accuracy                 | XX%            |
+| Validation | Classification Recall                   | XX%            |
+| Validation | Classification F1-Score                 | XX%            |
+| Validation | Detection Average Precision             | XX%            |
+| Validation | Detection Mean Average Prec.            | 76.8%@0.5(iou) |
+| Validation | Detection Intersection over Union (IoU) | XX%            |
 
 ## Screenshots/Pictures of Best Validation Results
 
