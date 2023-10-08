@@ -35,7 +35,7 @@
 
 ### Image 1 (Dataset 1)
 
-![Image 1 (Dataset 1)](path_to_image_1_dataset1.png)
+![Image 1 (Dataset 1)](Detection_Predictions/test_dataset_1/A0006.png)
 
 ### Image 2 (Dataset 1)
 
