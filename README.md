@@ -13,9 +13,9 @@
 
 ## Screenshots/Pictures of Best Validation Results
 
-### Image 1
+### Image 20 (Validation Dataset)
 
-![Image 1]("Detection_Predictions/validation/img-648-_png_jpg.rf.5b81ff212c9b0c8edb77bff30426659c.jpg")
+![Image 20](Detection_Predictions/validation/img-20-_png_jpg.rf.af18786f8de1f8982a0682bac1a8b529.jpg)
 
 ### Image 2
 
