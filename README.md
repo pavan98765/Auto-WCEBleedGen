@@ -33,13 +33,13 @@
 
 ## Screenshots/Pictures of Best Testing Results (Dataset 1)
 
-### Image 1 (Dataset 1)
+### A0006.png (Dataset 1)
 
-![Image 1 (Dataset 1)](Detection_Predictions/test_dataset_1/A0006.png)
+![A0006.png](Detection_Predictions/test_dataset_1/A0006.png)
 
-### Image 2 (Dataset 1)
+### A0026.png (Dataset 1)
 
-![Image 2 (Dataset 1)](path_to_image_2_dataset1.png)
+![A0026.png](Detection_Predictions/test_dataset_1/A0026.png)
 
 <!-- Repeat the pattern for images 3-5 (Dataset 1) -->
 
