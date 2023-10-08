@@ -15,11 +15,69 @@
 
 ### Image 1
 
-![Image 1](Detection_Predictions/validation/img-648-_png_jpg.rf.5b81ff212c9b0c8edb77bff30426659c.jpg)
+![Image 1]("Detection_Predictions/validation/img-648-_png_jpg.rf.5b81ff212c9b0c8edb77bff30426659c.jpg")
 
 ### Image 2
 
 ![Image 2](path_to_image_2.png)
+
+## Interpretability Plots for Best Validation Results
+
+### Interpretability Plot 1
+
+![Interpretability Plot 1](path_to_plot_1.png)
+
+### Interpretability Plot 2
+
+![Interpretability Plot 2](path_to_plot_2.png)
+
+## Screenshots/Pictures of Best Testing Results (Dataset 1)
+
+### Image 1 (Dataset 1)
+
+![Image 1 (Dataset 1)](path_to_image_1_dataset1.png)
+
+### Image 2 (Dataset 1)
+
+![Image 2 (Dataset 1)](path_to_image_2_dataset1.png)
+
+<!-- Repeat the pattern for images 3-5 (Dataset 1) -->
+
+## Screenshots/Pictures of Best Testing Results (Dataset 2)
+
+### Image 1 (Dataset 2)
+
+![Image 1 (Dataset 1)](path_to_image_1_dataset1.png)
+
+### Image 2 (Dataset 2)
+
+![Image 2 (Dataset 1)](path_to_image_2_dataset1.png)
+
+<!-- Repeat the pattern for images 3-5 (Dataset 1) -->
+
+## Interpretability Plots for Best Testing Results (Dataset 1)
+
+### Interpretability Plot 1 (Dataset 1)
+
+![Interpretability Plot 1 (Dataset 1)](path_to_plot_1_dataset1.png)
+
+### Interpretability Plot 2 (Dataset 1)
+
+![Interpretability Plot 2 (Dataset 1)](path_to_plot_2_dataset1.png)
+
+<!-- Repeat the pattern for interpretability plots 3-5 (Dataset 1) -->
+
+## Interpretability Plots for Best Testing Results (Dataset 2)
+
+### Interpretability Plot 1 (Dataset 2)
+
+![Interpretability Plot 1 (Dataset 2)](path_to_plot_1_dataset2.png)
+
+### Interpretability Plot 2 (Dataset 2)
+
+![Interpretability Plot 2 (Dataset 2)](path_to_plot_2_dataset2.png)
+
+<!-- Repeat the pattern for interpretability plots 3-5 (Dataset 2) -->
 
 ## Repository Structure
 
