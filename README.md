@@ -7,7 +7,7 @@
 | Validation | Classification Accuracy                 | XX%             |
 | Validation | Classification Recall                   | XX%             |
 | Validation | Classification F1-Score                 | XX%             |
-| Validation | Detection Average Precision             | XX%             |
+| Validation | Detection Average Precision             | 76.8%           |
 | Validation | Detection Mean Average Precision        | 76.8% @0.5(iou) |
 | Validation | Detection Intersection over Union (IoU) | XX%             |
 
