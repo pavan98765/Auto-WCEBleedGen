@@ -8,7 +8,7 @@
 | Validation | Classification Recall                   | 96.10%          |
 | Validation | Classification F1-Score                 | 96.10%          |
 | Validation | Detection Average Precision             | 76.8%           |
-| Validation | Detection Mean Average Precision        | 76.8% @0.5(iou) |
+| Validation | Detection Mean Average Precision        | 76.8% @0.5(IoU) |
 | Validation | Detection Intersection over Union (IoU) | 80.75%          |
 
 ## Screenshots/Pictures of Best Validation Results
