@@ -4,7 +4,7 @@
 
 | Dataset    | Metric                                  | Value           |
 | ---------- | --------------------------------------- | --------------- |
-| Validation | Classification Accuracy                 | 97.46%          |
+| Validation | Classification Accuracy                 | 97.33%          |
 | Validation | Classification Recall                   | 97.33%          |
 | Validation | Classification F1-Score                 | 97.33%          |
 | Validation | Detection Average Precision             | 76.8%           |
