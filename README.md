@@ -145,19 +145,19 @@ The repository contains the code for training , testing and Validating. Inside c
 Datasets: It contains the annotated dataset in yolo format with 80\20 split.
 Detection_Predictions: has all the predicted images from Validation Dataset, Test Dataset 1 and Test Dataset 2
 Model_weights: Its contains the Yolov8 trained model named best.pt along with other training data.
+Matlab_Classification_model:
 
 ## YOLOv8 Detection Model
 
-### Model Overview
-
-- Provide an overview of your YOLOv8-based detection model.
-- Mention any modifications or enhancements you made to the base YOLOv8 architecture.
+I have trained a yolov8 x model on the bleeding dataset. I detects the bleeding regions. I am using the same model for classification as well, basically if there is a detection then classified as bleeding.
 
 ## How to Run
 
-- Provide instructions for others to replicate your results using your code and models.
-- Include any dependencies or libraries needed to run the code.
+To run the training, just download the weights(Model_weights/best.pt) and datase(datasets) , then run the training command or script.
+To validate run the validation script or command.
+To predict run Testing.py in the end give the path to model weights, input folder, output folder and the predictions will be stored.
+Using Testing_with_classification.py will give the predictions along with classification results.
 
 ## Conclusion
 
-- Summarize your approach, results, and the significance of your work in addressing the challenge.
+I have trained the yolov8 model 'x' version on the dataset, I reannotated the dataset, then collected more data annotated them and trained on it. All the evaluation metrics are calculated on the default validation dataset also stored in the repo.
