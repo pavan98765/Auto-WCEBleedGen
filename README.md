@@ -141,7 +141,10 @@ I recommend you to take a look at this site,have added more data and trained oth
 
 ## Repository Structure
 
-- Explain the structure of your repository, including important directories and files.
+The repository contains the code for training , testing and Validating. Inside classification predictions there are excel prediction files of classification.
+Datasets: It contains the annotated dataset in yolo format with 80\20 split.
+Detection_Predictions: has all the predicted images from Validation Dataset, Test Dataset 1 and Test Dataset 2
+Model_weights: Its contains the Yolov8 trained model named best.pt along with other training data.
 
 ## YOLOv8 Detection Model
 
