@@ -133,6 +133,12 @@
 
 <!-- Repeat the pattern for interpretability plots 3-5 (Dataset 2) -->
 
+## Link to Datasets and Models:
+
+https://universe.roboflow.com/wce-fpcql/wce_clean_train_2.0
+
+I recommend you to take a look at this site,have added more data and trained other models,which are evaluated. It is easy to visualize and use!
+
 ## Repository Structure
 
 - Explain the structure of your repository, including important directories and files.
@@ -144,13 +150,6 @@
 - Provide an overview of your YOLOv8-based detection model.
 - Mention any modifications or enhancements you made to the base YOLOv8 architecture.
 
-## EfficientNet Classification Model
-
-### Model Overview
-
-- Provide an overview of your EfficientDet-based classification model.
-- Mention any modifications or enhancements you made to the base EfficientDet architecture.
-
 ## How to Run
 
 - Provide instructions for others to replicate your results using your code and models.
@@ -159,11 +158,3 @@
 ## Conclusion
 
 - Summarize your approach, results, and the significance of your work in addressing the challenge.
-
-## Acknowledgments
-
-- Acknowledge any datasets, libraries, or resources you used in your work.
-
-## Additional Information
-
-- Include any additional information or notes that may be relevant to your submission.
