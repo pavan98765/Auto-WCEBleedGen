@@ -136,11 +136,11 @@ It has multiple versions of the dataset, more data has been added and annotated,
 5. **Detection Predictions**:
    This directory includes predictions of the yolo detection model on the Validation Dataset, Test Dataset 1, and Test Dataset 2 with the labels.
 6. **Matlab Classification Model**:
-   This directory contains a separate classification model, based on MobileNet architecture,built using matlab. All relevant code and results realated to this model are stored here.
+   This directory contains a separate classification model, based on MobileNet architecture, built using matlab. All relevant code and results realated to this model are stored here.
 
-## YOLOv8 Detection Model
+## YOLOv8-X Detection and Classification Model!
 
-I have trained a yolov8 x model on the bleeding dataset. I detects the bleeding regions. I am using the same model for classification as well, basically if there is a detection then classified as bleeding.
+We have trained a YOLOv8-X model specifically designed to identify bleeding regions in Wireless capsule endoscopy (WCE) images. This model is used for **both Detection and classification** problem. By default it does Detection, and whenever we get detections (bounding boxes), we automatically classify the frames as bleeding, else non-bleeding. Visit [Testing_with_classification.py](Code/Testing_with_classification.py) and [Model_Weights](#Model_Weights/best.pt) files to use it.
 
 ## How to Run
 
