@@ -168,7 +168,7 @@ Before you begin, ensure you have the following prerequisites installed on your 
 
 You can install the required Python packages (PyTorch, OpenCV-Python, Ultralytics) using pip:
 
-pip install torch opencv-python ultralytics
+'''pip install torch opencv-python ultralytics'''
 
 ### Training:
 
