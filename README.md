@@ -125,7 +125,7 @@ It has multiple versions of the dataset, more data has been added and annotated,
 ## Repository Structure
 
 1. [**#Model Weights**](#Model_Weights):
-   This directory contains the YOLOv8 trained model, named [**best.pt**](#Model_Weights), along with any other relevant training data or model-related files.**All the Predictions and Evaluations for classification and Detection are done with this model**
+   This directory contains the YOLOv8 trained model, named **best.pt**, along with any other relevant training data or model-related files.**All the Predictions and Evaluations for classification and Detection are done with this model**
 2. [**Classification Predictions**](Classification_Predictions):
    Inside this directory,the [**All_Predictions.csv**](Classification_Predictions/All_Predictions.csv) file contains the classification prediction of both test_dataset_1 and 2 from the yolo detection model.
    Along with it there are validation predictions and evals.
@@ -140,7 +140,7 @@ It has multiple versions of the dataset, more data has been added and annotated,
 
 ## YOLOv8-X Detection and Classification Model!
 
-We have trained a YOLOv8-X model specifically designed to identify bleeding regions in Wireless capsule endoscopy (WCE) images. This model is used for **both Detection and classification** problem. By default it does Detection, and whenever we get detections (bounding boxes), we automatically classify the frames as bleeding, else non-bleeding. Visit [Testing_with_classification.py](Code/Testing_with_classification.py) and [Model_Weights](#Model_Weights) files to use it.
+We have trained a YOLOv8-X model specifically designed to identify bleeding regions in Wireless capsule endoscopy (WCE) images. This model is used for **both Detection and classification** problem. By default it does Detection, and whenever we get detections (bounding boxes), we automatically classify the frames as bleeding, else non-bleeding. Visit [Testing_with_classification.py](Code/Testing_with_classification.py) and Model_Weights files to use it.
 
 ## How to Run
 
