@@ -208,9 +208,9 @@ The above command will run YOLOv8 validation on the validation dataset and save 
 We have trained the YOLOv8-X Model.The first five folder in the repository-[Model_Weights](#Model_Weights),[Classification_Predictions](Classification_Predictions),[Code](Code),[Datasets](Datasets),[Detection_Predictions](Detection_Predictions) are from this model.Both the Classification and Detection tasks, along with all the evaluations are done with this model on the [Validation dataset](Datasets/wce_dataset/valid/).
 There was some problem with the bounding box annotations in the training data given,there were many wrong,less accurate and missed annotations. So we reannotated the dataset,and added more data from other internet sources, annotated them too and trained this Model.
 
-The sixth folder [Matlab_Classification_Model](Matlab_Classification_Model), is a seperate Classification model with all the related folders.
+The sixth folder [Matlab_Classification_Model](Matlab_Classification_Model), contains a seperate Classification model with all the related folders.
 
 The seventh folder [Other_Detection_Model](Other_Detection_Model), is also a seperate Detection model.
 As I mentioned above due to the data problem, I created a seperate version of the dataset, by reannotating it completely from binary masks and trained this Model.Please take a look at it if you want to see how the model performs when trained just on the training dataset.
 
-**So, the first YOLOv8-X Model is the best Model so far.It has been trained on more data and gone through several iterations!**
+**So, the first YOLOv8-X Model is the best Model so far for both Detection and Classification.It has been trained on more data and gone through several iterations!**
