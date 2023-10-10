@@ -157,15 +157,19 @@ We have trained a YOLOv8-X model specifically designed to identify bleeding regi
 
 ## How to Run
 
-1. Prerequisites:
-   -Before you begin, ensure you have the following prerequisites installed on your system:
+### Prerequisites
 
-   -Python (Python 3.x)
-   -PyTorch
-   -OpenCV-Python
-   -Ultralytics
+Before you begin, ensure you have the following prerequisites installed on your system:
 
-   You can install the Python packages (PyTorch, OpenCV-Python, Ultralytics) using pip: -**pip install torch opencv-python ultralytics**
+- [Python](https://www.python.org/downloads/) (Python 3.x)
+- [PyTorch](https://pytorch.org/get-started/locally/)
+- [OpenCV-Python](https://pypi.org/project/opencv-python/)
+- [Ultralytics](https://github.com/ultralytics/ultralytics)
+
+You can install the required Python packages (PyTorch, OpenCV-Python, Ultralytics) using pip:
+
+'''bash
+pip install torch opencv-python ultralytics
 
 2. Training:
    To train the model, just download the weights(**Model_weights/best.pt**) and [wce_dataset](Datasets), then run the [training script](Code/Training.py) or [training_notebook](Code/training_notebook.ipynb) or Command below:
