@@ -144,7 +144,7 @@ We have trained a YOLOv8-X model specifically designed to identify bleeding regi
 
 ## How to Run
 
-To run the training, just download the weights(Model_weights/best.pt) and datase(datasets) , then run the training command or script.
+To run the training, just download the weights(Model_weights/best.pt) and dataset(datasets) , then run the training command or script.
 To validate run the validation script or command.
 To predict run Testing.py in the end give the path to model weights, input folder, output folder and the predictions will be stored.
 Using Testing_with_classification.py will give the predictions along with classification results.
