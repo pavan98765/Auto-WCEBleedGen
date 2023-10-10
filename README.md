@@ -115,23 +115,11 @@
 
 ![Interpretability Plot 1 (Dataset 1)](path_to_plot_1_dataset1.png)
 
-### Interpretability Plot 2 (Dataset 1)
-
-![Interpretability Plot 2 (Dataset 1)](path_to_plot_2_dataset1.png)
-
-<!-- Repeat the pattern for interpretability plots 3-5 (Dataset 1) -->
-
 ## Interpretability Plots for Best Testing Results (Dataset 2)
 
 ### Interpretability Plot 1 (Dataset 2)
 
 ![Interpretability Plot 1 (Dataset 2)](path_to_plot_1_dataset2.png)
-
-### Interpretability Plot 2 (Dataset 2)
-
-![Interpretability Plot 2 (Dataset 2)](path_to_plot_2_dataset2.png)
-
-<!-- Repeat the pattern for interpretability plots 3-5 (Dataset 2) -->
 
 ## Link to Datasets and Models:
 
