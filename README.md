@@ -120,15 +120,18 @@
 ## Link to Datasets and Models:
 
 We Recommend you to explore our dataset and trained models on the [Roboflow Universe platform](https://universe.roboflow.com/wce-fpcql/wce_clean_train_2.0).
-It has multiple version of the dataset, more data has been added and annotated, 6 models have been trained, deployed and evaluated, which can be visualized and easily used!
+It has multiple versions of the dataset, more data has been added and annotated, 6 models have been trained, deployed and evaluated, which can be easily visualized and used!
 
 ## Repository Structure
+
+1. Code
+   This section contains the code for training, testing, and validation.
 
 The repository contains the code for training , testing and Validating. Inside classification predictions there are excel prediction files of classification.
 Datasets: It contains the annotated dataset in yolo format with 80\20 split.
 Detection_Predictions: has all the predicted images from Validation Dataset, Test Dataset 1 and Test Dataset 2
 Model_weights: Its contains the Yolov8 trained model named best.pt along with other training data.
-Matlab_Classification_model:
+Matlab_Classification_model: This is a classification model, based on MobileNet.All the releated code and results are stored in the directory.
 
 ## YOLOv8 Detection Model
 
