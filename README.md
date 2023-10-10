@@ -119,10 +119,8 @@
 
 ## Link to Datasets and Models:
 
-https://universe.roboflow.com/wce-fpcql/wce_clean_train_2.0
-
-I recommend you to take a look at this site,have added more data and trained other models,which are evaluated. It is easy to visualize and use!
-We Recommend you to explore our dataset and trained models on the [Roboflow Universe platform](https://universe.roboflow.com/wce-fpcql/wce_clean_train_2.0)
+We Recommend you to explore our dataset and trained models on the [Roboflow Universe platform](https://universe.roboflow.com/wce-fpcql/wce_clean_train_2.0).
+It has multiple version of the dataset, more data has been added and annotated, 6 models have been trained, deployed and evaluated, which can be visualized and easily used!
 
 ## Repository Structure
 
