@@ -153,7 +153,7 @@ It has multiple versions of the dataset, more data has been added and annotated,
 
 ## YOLOv8-X Detection and Classification Model!
 
-We have trained a YOLOv8-X model specifically designed to identify bleeding regions in Wireless capsule endoscopy (WCE) images. This model is used for **both Detection and classification** problem. By default it does Detection, and whenever we get detections (bounding boxes), we automatically classify the frames as bleeding, else non-bleeding. Visit [Testing_with_classification.py](Code/Testing_with_classification.py) and Model_Weights files to use it.
+We have trained a YOLOv8-X model specifically designed to identify bleeding regions in Wireless capsule endoscopy (WCE) images. This model is used for **both Detection and classification** problems. By default it does Detection, and whenever we get detections (bounding boxes), we automatically classify the frames as bleeding, else non-bleeding. Visit [Testing_with_classification.py](Code/Testing_with_classification.py) and Model_Weights files to use it.
 
 ## How to Run
 
@@ -211,6 +211,6 @@ There was some problem with the bounding box annotations in the training data gi
 The sixth folder [Matlab_Classification_Model](Matlab_Classification_Model), contains a seperate Classification model with all the related folders.
 
 The seventh folder [Other_Detection_Model](Other_Detection_Model), is also a seperate Detection model.
-As I mentioned above due to the data problem, I created a seperate version of the dataset, by reannotating it completely from binary masks and trained this Model.Please take a look at it if you want to see how the model performs when trained just on the training dataset.
+As I mentioned above due to the data problem, We created a seperate version of the dataset, by reannotating it completely from binary masks and trained this Model.Please take a look at it if you want to see how the model performs, when trained just on the training dataset.
 
 **So, the first YOLOv8-X Model is the best Model so far for both Detection and Classification.It has been trained on more data and gone through several iterations!**
