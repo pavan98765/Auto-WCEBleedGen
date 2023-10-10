@@ -126,11 +126,11 @@ It has multiple versions of the dataset, more data has been added and annotated,
 
 1. [**Model Weights**](#Model_Weights):
 
-   - This directory contains the YOLOv8 trained model, named **best.pt**, along with any other relevant training data or model-related files. **All the Predictions and Evaluations for classification and Detection are done with this model**.
+   - This directory contains the YOLOv8-X trained model, named **best.pt**, along with any other relevant training data or model-related files. **All the Predictions and Evaluations for classification and Detection are done with this model**.
 
 2. [**Classification Predictions**](Classification_Predictions):
 
-   - Inside this directory, the [**All_Predictions.csv**](Classification_Predictions/All_Predictions.csv) file contains the classification prediction of both test_dataset_1 and 2 from the YOLO detection model. Along with it, there are validation predictions and evaluations.
+   - Inside this directory, the [**All_Predictions.csv**](Classification_Predictions/All_Predictions.csv) file contains the classification prediction of both test_dataset_1 and 2 from the YOLOv8-X model. Along with it, there are validation predictions and evaluations.
 
 3. [**Code**](Code):
 
@@ -142,14 +142,14 @@ It has multiple versions of the dataset, more data has been added and annotated,
 
 5. [**Detection Predictions**](Detection_Predictions):
 
-   - This directory includes predictions of the YOLO model on the [Validation Dataset](Detection_Predictions/validation/), [Test Dataset 1](Detection_Predictions/test_dataset_1/), and [Test Dataset 2](Detection_Predictions/test_dataset_2/) with the labels.
+   - This directory includes predictions of the YOLOv8-X model on the [Validation Dataset](Detection_Predictions/validation/), [Test Dataset 1](Detection_Predictions/test_dataset_1/), and [Test Dataset 2](Detection_Predictions/test_dataset_2/) with the labels.
 
 6. [**Matlab Classification Model**](Matlab_Classification_Model):
 
    - This directory contains a separate classification model, based on the MobileNet architecture, built using MATLAB. All relevant code and results related to this model are stored here.
 
 7. [**Other Detection Model**](Other_Detection_Model):
-   - This directory contains a separate YOLOv8 Detection model, trained on a [dataset](Other_Detection_Model/Dataset/) with annotations extracted from the given binary masks. The Model weights, dataset, and results are stored here and can be viewed in [Roboflow](https://app.roboflow.com/pavan-cs-q3hq0/wce_org/). **This is not the best model, just another model trained with different dataset annotations(from binary masks). The First model can generalize and perform better as it has been trained on more data and gone through more iterations**.
+   - This directory contains a separate YOLO Detection model, trained on a [dataset](Other_Detection_Model/Dataset/) with annotations extracted from the given binary masks. The Model weights, dataset, and results are stored here and can be viewed in [Roboflow](https://app.roboflow.com/pavan-cs-q3hq0/wce_org/). **This is not the best model, just another model trained with different dataset annotations(sticking to the original training dataset and experts binary masks). The First model(YOLOv8-X) can generalize and perform better as it has been trained on more data and gone through more iterations**.
 
 ## YOLOv8-X Detection and Classification Model!
 
@@ -165,4 +165,4 @@ We have trained a YOLOv8-X model specifically designed to identify bleeding regi
 
 ## Conclusion
 
-I have trained the yolov8 model 'x' version on the dataset, I reannotated the dataset, then collected more data annotated them and trained on it. All the evaluation metrics are calculated on the default validation dataset also stored in the repo.
+I have trained the YOLOv8-X version on the dataset, I reannotated the dataset, then collected more data annotated them and trained on it. All the evaluation metrics are calculated on the default validation dataset also stored in the repo.
