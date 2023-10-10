@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['bleeding']
+
+roboflow:
+  workspace: pavan-cs-q3hq0
+  project: wce_org
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pavan-cs-q3hq0/wce_org/dataset/5
