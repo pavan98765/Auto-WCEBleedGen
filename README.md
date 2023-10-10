@@ -59,10 +59,6 @@
 
 ![Interpretability Plot 1](path_to_plot_1.png)
 
-### Interpretability Plot 2
-
-![Interpretability Plot 2](path_to_plot_2.png)
-
 ## Screenshots/Pictures of Best Testing Results (Dataset 1)
 
 ### A0001.png (Dataset 1)
@@ -126,6 +122,7 @@
 https://universe.roboflow.com/wce-fpcql/wce_clean_train_2.0
 
 I recommend you to take a look at this site,have added more data and trained other models,which are evaluated. It is easy to visualize and use!
+We Recommend you to explore our dataset and trained models on the [Roboflow Universe platform](https://universe.roboflow.com/wce-fpcql/wce_clean_train_2.0)
 
 ## Repository Structure
 
