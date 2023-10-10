@@ -174,7 +174,7 @@ You can install the required Python packages (PyTorch, OpenCV-Python, Ultralytic
 
 To train the model, just download the weights(**Model_weights/best.pt**) and [wce_dataset](Datasets), then run the [training script](Code/Training.py) or [training_notebook](Code/training_notebook.ipynb) or Command below:
 
-**yolo task=detect mode=train model=/path/to/your/model.pt data=/path/to/your/data.yaml epochs=50 imgsz=800 plots=True**
+'''**yolo task=detect mode=train model=/path/to/your/model.pt data=/path/to/your/data.yaml epochs=50 imgsz=800 plots=True**'''
 
 The above command will train the YOLOv8 model for given epochs and save the best model weights in the weights folder. The training results will be saved in the runs/train folder.The [original YOLOv8](https://github.com/ultralytics/ultralytics) models can be downloaded from [here](https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8s.pt)!
 
@@ -182,7 +182,8 @@ The above command will train the YOLOv8 model for given epochs and save the best
 
 To predict on data, run [Testing_with_classification.py](Code/Testing_with_classification.py) script for getting both detection and classification results or [Testing.py](Code/Testing.py) for only detection. In both the scripts, in the end give the path to model weights, input folder, output folder and the predictions will be stored.
 Or through command line:
-**yolo task=detect mode=predict model=/path/to/your/model.pt data=/path/to/your/data.yaml source=/path/to/your/images_or_video_or_folder save=True conf=0.25**
+
+'''**yolo task=detect mode=predict model=/path/to/your/model.pt data=/path/to/your/data.yaml source=/path/to/your/images_or_video_or_folder save=True conf=0.25**'''
 
 The above command will run YOLOv8 inference on the images or video or folder and save the results in the runs/detect/predict folder.
 
@@ -190,7 +191,7 @@ The above command will run YOLOv8 inference on the images or video or folder and
 
 To validate the model, run the [validation script](Code/Validation.py) or Command below:
 
-**yolo task=detect mode=val model=/path/to/your/model.pt data=/path/to/your/data.yaml**
+'''**yolo task=detect mode=val model=/path/to/your/model.pt data=/path/to/your/data.yaml**'''
 
 The above command will run YOLOv8 validation on the validation dataset and save the results in the runs/detect/val folder.
 
