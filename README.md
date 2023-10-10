@@ -128,22 +128,28 @@ It has multiple versions of the dataset, more data has been added and annotated,
 
    - This directory contains the YOLOv8 trained model, named **best.pt**, along with any other relevant training data or model-related files. **All the Predictions and Evaluations for classification and Detection are done with this model**.
 
-1. [**#Model Weights**](#Model_Weights):
-   This directory contains the YOLOv8 trained model, named **best.pt**, along with any other relevant training data or model-related files.**All the Predictions and Evaluations for classification and Detection are done with this model**
-1. [**Classification Predictions**](Classification_Predictions):
-   Inside this directory,the [**All_Predictions.csv**](Classification_Predictions/All_Predictions.csv) file contains the classification prediction of both test_dataset_1 and 2 from the yolo detection model.
-   Along with it there are validation predictions and evals.
-1. [**Code**](Code):
-   This section contains the code for [training](Code/Training.py), [testing](Code/Testing_with_classification.py), and [validation](Code/Validation.py).
-1. [**Datasets**](Datasets):
-   The Datasets directory holds our annotated dataset in YOLO format,split into an 80/20 ratio for training and validation(all evaluations are done on this validation data).
-1. [**Detection Predictions**](Detection_Predictions):
-   This directory includes predictions of the yolo model on the [Validation Dataset](Detection_Predictions/validation/), [Test Dataset 1](Detection_Predictions/test_dataset_1/), and [Test Dataset 2](Detection_Predictions/test_dataset_2/) with the labels.
-1. [**Matlab Classification Model**](Matlab_Classification_Model):
-   This directory contains a separate classification model, based on MobileNet architecture, built using matlab. All relevant code and results realated to this model are stored here.
-1. [**Other Detection Model**](Other_Detection_Model):
-   This directory contains a separate yolov8 Detection model, trained on [dataset](Other_Detection_Model/Dataset/) with annoations extracted from the given binary masks. The Model weights, dataset and results are stored here and can be viewed in [Roboflow](https://app.roboflow.com/pavan-cs-q3hq0/wce_org/).
-   **This is not the best model, just another model trained with different dataset annotations(from binary masks).The First model can generalize and perform better as it has been trained on more data and gone through more iterations**
+2. [**Classification Predictions**](Classification_Predictions):
+
+   - Inside this directory, the [**All_Predictions.csv**](Classification_Predictions/All_Predictions.csv) file contains the classification prediction of both test_dataset_1 and 2 from the YOLO detection model. Along with it, there are validation predictions and evaluations.
+
+3. [**Code**](Code):
+
+   - This section contains the code for [training](Code/Training.py), [testing](Code/Testing_with_classification.py), and [validation](Code/Validation.py).
+
+4. [**Datasets**](Datasets):
+
+   - The Datasets directory holds our annotated dataset in YOLO format, split into an 80/20 ratio for training and validation (all evaluations are done on this validation data).
+
+5. [**Detection Predictions**](Detection_Predictions):
+
+   - This directory includes predictions of the YOLO model on the [Validation Dataset](Detection_Predictions/validation/), [Test Dataset 1](Detection_Predictions/test_dataset_1/), and [Test Dataset 2](Detection_Predictions/test_dataset_2/) with the labels.
+
+6. [**Matlab Classification Model**](Matlab_Classification_Model):
+
+   - This directory contains a separate classification model, based on the MobileNet architecture, built using MATLAB. All relevant code and results related to this model are stored here.
+
+7. [**Other Detection Model**](Other_Detection_Model):
+   - This directory contains a separate YOLOv8 Detection model, trained on a [dataset](Other_Detection_Model/Dataset/) with annotations extracted from the given binary masks. The Model weights, dataset, and results are stored here and can be viewed in [Roboflow](https://app.roboflow.com/pavan-cs-q3hq0/wce_org/). **This is not the best model, just another model trained with different dataset annotations(from binary masks). The First model can generalize and perform better as it has been trained on more data and gone through more iterations**.
 
 ## YOLOv8-X Detection and Classification Model!
 
