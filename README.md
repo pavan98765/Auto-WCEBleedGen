@@ -124,18 +124,18 @@ It has multiple versions of the dataset, more data has been added and annotated,
 
 ## Repository Structure
 
-1. #Model Weights:
+1. **#Model Weights**:
    This directory contains the YOLOv8 trained model, named **best.pt**, along with any other relevant training data or model-related files.**All the Predictions and Evaluations for classification and Detection are done with this model**
-2. Classification Predictions:
+2. **Classification Predictions**:
    Inside this directory,the **All_Predictions.csv** file contains the classification prediction of both test_dataset_1 and 2 from the yolo detection model.
    Along with it there are validation predictions and evals.
-3. Code:
+3. **Code**:
    This section contains the code for training, testing, and validation.
-4. Datasets:
+4. **Datasets**:
    The Datasets directory holds our annotated dataset in YOLO format,split into an 80/20 ratio for training and validation(all evaluations are done on this validation data).
-5. Detection Predictions:
+5. **Detection Predictions**:
    This directory includes predictions of the yolo detection model on the Validation Dataset, Test Dataset 1, and Test Dataset 2 with the labels.
-6. Matlab Classification Model
+6. **Matlab Classification Model**:
    This directory contains a separate classification model, based on MobileNet architecture,built using matlab. All relevant code and results realated to this model are stored here.
 
 ## YOLOv8 Detection Model
