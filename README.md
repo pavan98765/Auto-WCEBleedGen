@@ -140,7 +140,7 @@ It has multiple versions of the dataset, more data has been added and annotated,
 
 ## YOLOv8-X Detection and Classification Model!
 
-We have trained a YOLOv8-X model specifically designed to identify bleeding regions in Wireless capsule endoscopy (WCE) images. This model is used for **both Detection and classification** problem. By default it does Detection, and whenever we get detections (bounding boxes), we automatically classify the frames as bleeding, else non-bleeding. Visit [Testing_with_classification.py](Code/Testing_with_classification.py) and [Model_Weights](#Model_Weights) files to use it.
+We have trained a YOLOv8-X model specifically designed to identify bleeding regions in Wireless capsule endoscopy (WCE) images. This model is used for **both Detection and classification** problem. By default it does Detection, and whenever we get detections (bounding boxes), we automatically classify the frames as bleeding, else non-bleeding. Visit [Testing_with_classification.py](Code/Testing_with_classification.py) and [Model_Weights](#Model_Weights/Training_data/) files to use it.
 
 ## How to Run
 
