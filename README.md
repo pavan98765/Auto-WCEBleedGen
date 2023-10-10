@@ -158,10 +158,36 @@ We have trained a YOLOv8-X model specifically designed to identify bleeding regi
 ## How to Run
 
 1. Prerequisites:
-   To run the training, just download the weights(Model_weights/best.pt) and dataset(datasets) , then run the training command or script.
-   To validate run the validation script or command.
-   To predict run Testing.py in the end give the path to model weights, input folder, output folder and the predictions will be stored.
-   Using Testing_with_classification.py will give the predictions along with classification results.
+   Before you begin, ensure you have the following prerequisites installed on your system:
+
+   Python (Python 3.x)
+   PyTorch
+   OpenCV-Python
+   Ultralytics
+
+   You can install the Python packages (PyTorch, OpenCV-Python, Ultralytics) using pip:
+   **pip install torch opencv-python ultralytics**
+
+2. Training:
+   To train the model, just download the weights(**Model_weights/best.pt**) and [wce_dataset](Datasets), then run the [training script](Code/Training.py) or [training_notebook](Code/training_notebook.ipynb) or Command below:
+
+   **yolo task=detect mode=train model=/path/to/your/model.pt data=/path/to/your/data.yaml epochs=50 imgsz=800 plots=True**
+
+   The above command will train the YOLOv8 model for given epochs and save the best model weights in the weights folder. The training results will be saved in the runs/train folder.The [original YOLOv8](https://github.com/ultralytics/ultralytics) models can be downloaded from [here](https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8s.pt)!
+
+3. Testing/Prediction:
+   To predict on data, run [Testing_with_classification.py](Code/Testing_with_classification.py) script for getting both detection and classification results or [Testing.py](Code/Testing.py) for only detection. In both the scripts, in the end give the path to model weights, input folder, output folder and the predictions will be stored.
+   Or through command line:
+   **yolo task=detect mode=predict model=/path/to/your/model.pt data=/path/to/your/data.yaml source=/path/to/your/images_or_video_or_folder save=True conf=0.25**
+
+   The above command will run YOLOv8 inference on the images or video or folder and save the results in the runs/detect/predict folder.
+
+4. Validation:
+   To validate the model, run the [validation script](Code/Validation.py) or Command below:
+
+   **yolo task=detect mode=val model=/path/to/your/model.pt data=/path/to/your/data.yaml**
+
+   The above command will run YOLOv8 validation on the validation dataset and save the results in the runs/detect/val folder.
 
 ## Conclusion
 
