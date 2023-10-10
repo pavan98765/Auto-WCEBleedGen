@@ -137,6 +137,9 @@ It has multiple versions of the dataset, more data has been added and annotated,
    This directory includes predictions of the yolo detection model on the Validation Dataset, Test Dataset 1, and Test Dataset 2 with the labels.
 6. [**Matlab Classification Model**](Matlab_Classification_Model):
    This directory contains a separate classification model, based on MobileNet architecture, built using matlab. All relevant code and results realated to this model are stored here.
+7. [**Other Detection Model**](Other_Detection_Model):
+   This directory contains a separate yolov8 Detection model, trained on dataset with annoations extracted from the binary masks given. The Model weights, dataset and results are stored here and can be viewed in [Roboflow](https://app.roboflow.com/pavan-cs-q3hq0/wce_org/).
+   **This is not best model,just another model trained with different dataset annotations(from binary masks).The First model can generalize and perform better as it has been trained on more data and gone through more iterations**
 
 ## YOLOv8-X Detection and Classification Model!
 
