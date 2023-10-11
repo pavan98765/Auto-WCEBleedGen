@@ -169,19 +169,19 @@
 
 ### A0129.png Occlusion Plot (Dataset 2)
 
-![A00060.png Occlusion Plot (Dataset 2)](Detection_Predictions/Interpretability_plots/test_dataset_2_plots/A0129.png)
+![A00129.png Occlusion Plot (Dataset 2)](Detection_Predictions/Interpretability_plots/test_dataset_2_plots/A0129.png)
 
 ### A0134.png Occlusion Plot (Dataset 2)
 
-![A00060.png Occlusion Plot (Dataset 2)](Detection_Predictions/Interpretability_plots/test_dataset_2_plots/A0134.png)
+![A00134.png Occlusion Plot (Dataset 2)](Detection_Predictions/Interpretability_plots/test_dataset_2_plots/A0134.png)
 
 ### A0145.png Occlusion Plot (Dataset 2)
 
-![A00060.png Occlusion Plot (Dataset 2)](Detection_Predictions/Interpretability_plots/test_dataset_2_plots/A0145.png)
+![A00145.png Occlusion Plot (Dataset 2)](Detection_Predictions/Interpretability_plots/test_dataset_2_plots/A0145.png)
 
 ### A0285.png Occlusion Plot (Dataset 2)
 
-![A00060.png Occlusion Plot (Dataset 2)](Detection_Predictions/Interpretability_plots/test_dataset_2_plots/A0285.png)
+![A0285.png Occlusion Plot (Dataset 2)](Detection_Predictions/Interpretability_plots/test_dataset_2_plots/A0285.png)
 
 ## Link to Datasets and Models:
 
