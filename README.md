@@ -186,7 +186,7 @@
 ## Link to Datasets and Models:
 
 We Recommend you to explore our dataset and trained models on the [Roboflow Universe platform](https://universe.roboflow.com/wce-fpcql/wce_clean_train_2.0).
-It has multiple versions of the dataset, more data has been added and annotated, 6 models have been trained, deployed and evaluated, which can be easily visualized and used!
+It has multiple versions of the dataset, more data has been added and annotated (6345 Images), 6 models have been trained, deployed and evaluated, which can be easily visualized and used!
 
 ## Repository Structure
 
@@ -279,7 +279,7 @@ The sixth folder [Matlab_Classification_Model](Matlab_Classification_Model), con
 The seventh folder [Other_Detection_Model](Other_Detection_Model), is also a seperate Detection model.
 As I mentioned above due to the data problem, We created a seperate version of the dataset, by reannotating it completely from binary masks and trained this Model.Please take a look at it if you want to see how the model performs, when trained just on the training dataset.
 
-**So, the first YOLOv8-X Model is the best Model so far, for both Detection and Classification.It has been trained on more data and gone through several iterations!**
+**So, the first YOLOv8-X Model is the best Model so far, for both Detection and Classification.It has been trained on more data (6345 Images) and gone through several iterations!**
 
 ## Future Work
 
