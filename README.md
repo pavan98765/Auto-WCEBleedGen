@@ -214,4 +214,6 @@ The sixth folder [Matlab_Classification_Model](Matlab_Classification_Model), con
 The seventh folder [Other_Detection_Model](Other_Detection_Model), is also a seperate Detection model.
 As I mentioned above due to the data problem, We created a seperate version of the dataset, by reannotating it completely from binary masks and trained this Model.Please take a look at it if you want to see how the model performs, when trained just on the training dataset.
 
-**So, the first YOLOv8-X Model is the best Model so far for both Detection and Classification.It has been trained on more data and gone through several iterations!**
+**So, the first YOLOv8-X Model is the best Model so far, for both Detection and Classification.It has been trained on more data and gone through several iterations!**
+
+Still there is scope for improvement in solving the problem detecting bleeding regions in WCE images. First, we can create a larger, diverse dataset, with good quality annotations by collaborating with medical professionals.Next, we can experiment with different model architectures, larger models, and maybe go forward and build segmentation models, which can potentially be more accurate and useful for medical purposes!
