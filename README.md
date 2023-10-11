@@ -1,4 +1,4 @@
-# Auto-WCEBleedGen Challenge Submission
+# Auto-WCEBleedGen Challenge Submission [Team PRIA]
 
 ## Table of Achieved Evaluation Metrics
 
