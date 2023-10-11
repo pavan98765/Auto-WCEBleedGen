@@ -117,8 +117,6 @@
 
 ![A0041.png](Detection_Predictions/test_dataset_1/A0041.png)
 
-<!-- Repeat the pattern for images 3-5 (Dataset 1) -->
-
 ## Screenshots/Pictures of Best Testing Results (Dataset 2)
 
 ### A0060.png (Dataset 2)
@@ -141,17 +139,17 @@
 
 ![A0285.png](Detection_Predictions/test_dataset_2/A0285.png)
 
-<!-- ## Interpretability Plots for Best Testing Results (Dataset 1)
+## Interpretability Plots for Best Testing Results (Dataset 1)
 
-### Interpretability Plot 1 (Dataset 1)
+### A00001.png Occlusion Plot (Dataset 1)
 
-![Interpretability Plot 1 (Dataset 1)](path_to_plot_1_dataset1.png)
+![A00001.png Occlusion Plot](Detection_Predictions/Interpretability_plots/test_dataset_1_plots/A0001.png)
 
 ## Interpretability Plots for Best Testing Results (Dataset 2)
 
 ### Interpretability Plot 1 (Dataset 2)
 
-![Interpretability Plot 1 (Dataset 2)](path_to_plot_1_dataset2.png) -->
+![Interpretability Plot 1 (Dataset 2)](path_to_plot_1_dataset2.png)
 
 ## Link to Datasets and Models:
 
