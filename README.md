@@ -11,7 +11,7 @@
 | Validation | **Detection Average Precision**             | **76.8%**            |
 | Validation | **Detection Intersection over Union (IoU)** | **80.75%**           |
 
-## Screenshots/Pictures of Best Validation Results
+## Pictures of 10 Best Validation Results
 
 ### Image 20 (Validation Dataset)
 
@@ -53,7 +53,7 @@
 
 ![Image 786](Detection_Predictions/validation/img-786-_png_jpg.rf.f8f9590f1c5a553515c52cb2f6acd4b5.jpg)
 
-## Interpretability Plots for Best Validation Results
+## Interpretability Plots for the 10 Best Validation Results
 
 ### Image 20 Occlusion Plot
 
@@ -95,7 +95,7 @@
 
 ![Image 786 Occlusion Plot](Detection_Predictions/Interpretability_plots/val_plots/img-786-_png_jpg.rf.f8f9590f1c5a553515c52cb2f6acd4b5.png)
 
-## Screenshots/Pictures of Best Testing Results (Dataset 1)
+## Pictures of 5 Best Test Dataset 1 Results
 
 ### A0001.png (Dataset 1)
 
@@ -117,7 +117,7 @@
 
 ![A0041.png](Detection_Predictions/test_dataset_1/A0041.png)
 
-## Screenshots/Pictures of Best Testing Results (Dataset 2)
+## Pictures of 5 Best Test Dataset 2 Results
 
 ### A0060.png (Dataset 2)
 
@@ -139,7 +139,7 @@
 
 ![A0285.png](Detection_Predictions/test_dataset_2/A0285.png)
 
-## Interpretability Plots for Best Testing Results (Dataset 1)
+## Interpretability Plots for the 5 Best Test Dataset 1 Results
 
 ### A00001.png Occlusion Plot (Dataset 1)
 
@@ -161,7 +161,7 @@
 
 ![A00041.png Occlusion Plot](Detection_Predictions/Interpretability_plots/test_dataset_1_plots/A0041.png)
 
-## Interpretability Plots for Best Testing Results (Dataset 2)
+## Interpretability Plots for the 5 Best Test Dataset 2 Results
 
 ### A00060.png Occlusion Plot (Dataset 2)
 
