@@ -135,7 +135,7 @@
 
 ![A0145.png](Detection_Predictions/test_dataset_2/A0145.png)
 
-### A0060.png (Dataset 2)
+### A0285.png (Dataset 2)
 
 ![A0285.png](Detection_Predictions/test_dataset_2/A0285.png)
 
@@ -163,9 +163,25 @@
 
 ## Interpretability Plots for Best Testing Results (Dataset 2)
 
-### Interpretability Plot 1 (Dataset 2)
+### A00060.png Occlusion Plot (Dataset 2)
 
-![Interpretability Plot 1 (Dataset 2)](path_to_plot_1_dataset2.png)
+![A00060.png Occlusion Plot (Dataset 2)](Detection_Predictions/Interpretability_plots/test_dataset_2_plots/A0060.png)
+
+### A0129.png Occlusion Plot (Dataset 2)
+
+![A00060.png Occlusion Plot (Dataset 2)](Detection_Predictions/Interpretability_plots/test_dataset_2_plots/A0129.png)
+
+### A0134.png Occlusion Plot (Dataset 2)
+
+![A00060.png Occlusion Plot (Dataset 2)](Detection_Predictions/Interpretability_plots/test_dataset_2_plots/A0134.png)
+
+### A0145.png Occlusion Plot (Dataset 2)
+
+![A00060.png Occlusion Plot (Dataset 2)](Detection_Predictions/Interpretability_plots/test_dataset_2_plots/A0145.png)
+
+### A0285.png Occlusion Plot (Dataset 2)
+
+![A00060.png Occlusion Plot (Dataset 2)](Detection_Predictions/Interpretability_plots/test_dataset_2_plots/A0285.png)
 
 ## Link to Datasets and Models:
 
