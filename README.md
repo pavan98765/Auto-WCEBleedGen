@@ -53,11 +53,12 @@
 
 ![Image 786](Detection_Predictions/validation/img-786-_png_jpg.rf.f8f9590f1c5a553515c52cb2f6acd4b5.jpg)
 
+<!--
 ## Interpretability Plots for Best Validation Results
 
 ### Interpretability Plot 1
 
-![Interpretability Plot 1](path_to_plot_1.png)
+![Interpretability Plot 1](path_to_plot_1.png) -->
 
 ## Screenshots/Pictures of Best Testing Results (Dataset 1)
 
@@ -105,7 +106,7 @@
 
 ![A0285.png](Detection_Predictions/test_dataset_2/A0285.png)
 
-## Interpretability Plots for Best Testing Results (Dataset 1)
+<!-- ## Interpretability Plots for Best Testing Results (Dataset 1)
 
 ### Interpretability Plot 1 (Dataset 1)
 
@@ -115,7 +116,7 @@
 
 ### Interpretability Plot 1 (Dataset 2)
 
-![Interpretability Plot 1 (Dataset 2)](path_to_plot_1_dataset2.png)
+![Interpretability Plot 1 (Dataset 2)](path_to_plot_1_dataset2.png) -->
 
 ## Link to Datasets and Models:
 
