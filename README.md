@@ -53,12 +53,11 @@
 
 ![Image 786](Detection_Predictions/validation/img-786-_png_jpg.rf.f8f9590f1c5a553515c52cb2f6acd4b5.jpg)
 
-<!--
 ## Interpretability Plots for Best Validation Results
 
 ### Interpretability Plot 1
 
-![Interpretability Plot 1](path_to_plot_1.png) -->
+![Image 20 Occlusion Plot](Detection_Predictions/Interpretability_plots/val_plots/img-20-_png_jpg.rf.af18786f8de1f8982a0682bac1a8b529.png)
 
 ## Screenshots/Pictures of Best Testing Results (Dataset 1)
 
