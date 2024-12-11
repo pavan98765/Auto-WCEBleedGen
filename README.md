@@ -1,4 +1,4 @@
-# Auto-WCEBleedGen Challenge Submission [ Team PRIA ]
+# Auto-WCEBleedGen Challenge [ Team PRIA ] - Consolation Prize Winner
 
 ## Table of Achieved Evaluation Metrics
 
