@@ -2,6 +2,9 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-2412.16624-b31b1b.svg)](https://arxiv.org/abs/2412.16624)
 
+## Paper
+For more details, please refer to our paper: [Automated Bleeding Detection and Classification in Wireless Capsule Endoscopy with YOLOv8-X](https://arxiv.org/abs/2412.16624)
+
 ## Table of Achieved Evaluation Metrics
 
 | Dataset    | Metric                                      | Value                |
